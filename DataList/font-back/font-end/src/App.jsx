@@ -10,6 +10,7 @@ function App() {
 
     axios.get('http://localhost:3000/').then( res =>{
       setData(res.data)
+      console.log(res)
     }).catch(err=>{
       console.log(err)
     })
