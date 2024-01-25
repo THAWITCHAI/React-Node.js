@@ -18,9 +18,8 @@ function App() {
 
   return (
     <>
-      <div>
-        {data.name}
-      </div>
+      <h1>{data.title}</h1>
+      <button>Next</button>
       
     </>
   )
