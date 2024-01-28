@@ -1,2 +1,2 @@
 npm run dev by react
-node nodemon file name by node.js
+nodemon file name by node.js
