@@ -1,7 +1,9 @@
 /* eslint-disable react/jsx-no-target-blank */
 import { useState, useEffect } from "react";
-import Navbar from "./Component/Navbar";
 import axios from "axios";
+import Navbar from './Component/navbar';
+import Register from './Component/register';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 
 function App() {
@@ -25,14 +27,13 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{data.title}</title>
       </head>
-      <Navbar/>
       <body>
-        <h1>{data.title}</h1>
-        <button className="btn">
-          <a target="_blank" href={data.link}>
-            Facebook
-          </a>
-        </button>
+        <Navbar/>
+        <div className="container d-flex justify-content-center">
+          <div className="w-25 p-3">
+            <Register/>
+          </div>
+        </div>
 
       </body>
     </>
