@@ -1,0 +1,25 @@
+#main-layout{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    "n n" 56px
+    "s c" / 240px
+}
+
+#nav{
+    grid-area: n;
+}
+#sidebar{
+    grid-area: s;
+}
+#content{
+    margin-top: 2rem;
+    grid-area: c;
+    /* border: 1px solid; */
+    padding-top:1rem ;
+    padding: 0 26rem;
+}
+a{
+    text-decoration: none;
+}

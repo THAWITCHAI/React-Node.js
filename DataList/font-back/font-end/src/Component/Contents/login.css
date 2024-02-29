@@ -1,3 +1,6 @@
-/* .login{
-    width: 30rem;
-} */
+.scoll{
+    overflow: auto;
+}
+.btn{
+    margin-right: 1rem;
+}
