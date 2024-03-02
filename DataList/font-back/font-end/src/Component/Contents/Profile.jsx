@@ -2,7 +2,7 @@
 function Profile() {
   return (
     <div>
-      <h1>Profile</h1>
+      <h1>ข้อมูลส่วนตัว</h1>
     </div>
   )
 }

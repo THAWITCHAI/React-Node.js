@@ -2,7 +2,7 @@
 function AddFoods() {
   return (
     <div>
-      <h1>Add Foods</h1>
+      <h1>เพิ่มรายการอาหาร</h1>
     </div>
   )
 }

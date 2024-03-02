@@ -35,7 +35,7 @@ function Content() {
           <tbody>
             {data.map((item, index) => {
               return (
-                <tr key={index} className="tt">
+                <tr key={index} className="">
                   <th scope="row">{index + 1}</th>
                   <td>{item.name}</td>
                   <td>{item.last}</td>
@@ -48,8 +48,8 @@ function Content() {
                     >
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/1159/1159633.png"
-                        width={24}
-                        height={24}
+                        width={18}
+                        height={18}
                         alt=""
                       />
                     </button>
@@ -59,8 +59,8 @@ function Content() {
                     >
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/1214/1214428.png"
-                        width={24}
-                        height={24}
+                        width={18}
+                        height={18}
                         alt=""
                       />
                     </button>

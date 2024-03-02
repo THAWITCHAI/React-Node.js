@@ -2,7 +2,7 @@
 function AddTables() {
   return (
     <div>
-      <h1>Add Table</h1>
+      <h1>เพิ่มโต๊ะ</h1>
       
     </div>
   )
