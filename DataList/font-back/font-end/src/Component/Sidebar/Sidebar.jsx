@@ -7,12 +7,12 @@ function Sidebar() {
     <section id="sidebar">
       <div className="side-pmr">
 
-        <a  className="item">
+        <Link to="/profile" className="item">
           <div className="icon">
             <img src="https://cdn-icons-png.flaticon.com/128/1769/1769328.png" alt="" width={30} height={30} />
           </div>
           <div className="text">คุณ ธวิชชัย บุญส่ง <br />ADMIN</div>
-        </a><hr />
+        </Link><hr />
 
         <Link to="/wait"  className="item">
           <div className="icon">

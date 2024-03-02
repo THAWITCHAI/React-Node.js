@@ -1,5 +1,6 @@
 import Home from "../Component/Contents/Home";
 import AddFoods from "../Component/Contents/AddFoods";
+import Profile from "../Component/Contents/Profile";
 import AddTables from "../Component/Contents/AddTables";
 import Finish from "../Component/Contents/Finish";
 import Contact from "../Component/Contents/Content";
@@ -28,7 +29,7 @@ function MainLayout() {
             <Route path="/AddTables" element={<AddTables/>} />
             <Route path="/Finish" element={<Finish/>} />
             <Route path="/wait" element={<Wait/>} />
-            <Route path="/wait" element={<Wait/>} />
+            <Route path="/profile" element={<Profile/>} />
           </Routes>
         </div>
       </section>
