@@ -20,7 +20,7 @@ function navbar() {
         </div>
         <div id="btn" className="btn btn-success btn-sm">ค้นหา</div>
       </div>
-      <div className="end">3</div>
+      <div className="end"><span></span></div>
     </section>
   );
 }
