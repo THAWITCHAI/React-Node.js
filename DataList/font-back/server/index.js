@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/product', (req, res) => {
-    res.send('Hello World')
+    res.send('<h1>Products</h1>')
 })
 
 app.get('/', (req, res) => res.send('Hello World!'))
