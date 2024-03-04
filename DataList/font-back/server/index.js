@@ -15,6 +15,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/product', (req, res) => {
-    res.send('<h1>Products</h1>')
+    res.send('<h1>Products Api</h1>')
 })
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
